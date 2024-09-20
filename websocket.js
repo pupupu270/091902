@@ -1,6 +1,6 @@
 
 let websocket =require("ws");
-let server = new websocket.Server({port:2000});
+let server = new websocket.Server();
 
 server.on("connection",(socket)=>{
 console.log("connection");
